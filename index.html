@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>تعلم القراة والكتابة</title>
+    <meta property="og:image" content="assets/img/Screenshot%202021-03-04%20185003.png">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="u.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md text-capitalize navigation-clean-button">
+            <div class="container"><img class="img-thumbnail img-fluid" src="assets/img/Screenshot%202021-03-04%20185003.png" width="50"><a class="navbar-brand" href="index.html">تعلم القراءة والكتابة</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">الرئيسية</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">قرآن</a></li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">&nbsp;القاعدة البغدادية</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">هاعغخات</a><a class="dropdown-item" role="presentation" href="#">رالعمرناغعرت</a><a class="dropdown-item" role="presentation" href="#">عرلانالتنتنا</a></div>
+                        </li>
+                    </ul><span class="navbar-text actions"> <a class="login" href="untitled-1.html">Log In</a><a class="btn btn-light action-button" role="button" data-bs-hover-animate="swing" href="untitled.html">Sign Up</a></span></div>
+    </div>
+    </nav>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a data-bs-hover-animate="bounce" href="#"><i class="icon ion-social-instagram"></i></a><a data-bs-hover-animate="bounce" href="#"><i class="icon ion-social-snapchat"></i></a><a data-bs-hover-animate="bounce" href="#"><i class="icon ion-social-twitter"></i></a>
+                <a
+                    data-bs-hover-animate="bounce" href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">الصفحة الرئيسية</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="medoessam871@gmail.com">تواصل معنا</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">تعلم القراءة والكتابة © 2011</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <form>
+            <table class="table_form">
+                <!--tr mean table row-->
+                <tr>
+                    <!--td as table column-->
+                    <!--link of types of inputs-->
+                    <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input-->
+        
+                    <td>1st name: <input type="text" placeholder="enter 1st name" id="1st-name"
+                       name="name"  minlength="4" maxlength="8" size="10" required></td> 
+                        <!--الrequire اشرح
+                        بعد لما اعمل الbutton-->
+                
+                    <td>2nd name: <input type="text" placeholder="enter 2st name" id="2st-name"  
+                       name="name"  minlength="4" maxlength="8" size="10" required> </td>
+                </tr>
+        
+                <tr> 
+                    <td>email: <input type="email" placeholder="enter your email"  id="email"
+                      name="email"  pattern="+gmail.com" size="30" required></td>
+        
+                    <td>password: <input type="password" placeholder="enter password"  id="pass" 
+                     name="password" minlength="8" required></td>
+                </tr>
+        
+                <tr>
+                    <td>Enter your birthday <input type="date"></td>
+                    <td>Enter your favourite color <input type="color"></td>
+                </tr>
+        
+                <tr>
+                    <td colspan="2">Donate<input type="range"></td>  <!--Donate=تبرع-->
+                </tr>
+        
+                <tr>
+                    <td>Donate<input type="radio" name="list">500<input type="radio" name="list">
+                    1000<input type="radio" name="list">1500<input type="radio" name="list">2000</td>
+                </tr>
+        
+                <tr>
+                    <td colspan="2">Upload your passport copy <input type="file"></td>
+                </tr>
+        
+                <tr>
+                    <td colspan="2">Select your country <input list="country"></td>
+                    <datalist id="country">
+                        <option value="Egypt"></option>
+                        <option value="Albania"></option>
+                        <option value="Algeria"></option>
+                    </datalist>
+                </tr>
+        
+                <tr>
+                    <td colspan="2" style="text-align: center;"><input type="submit" value="Send Request">
+                    </td>
+                    <!--colspan (column span) means merging of columns -->
+                </tr>
+            </table>
+        </form>
+</body>
+
+</html>
